@@ -1,0 +1,8 @@
+{
+    "remappings": [
+        "@openzeppelin/=/data/node_modules/@openzeppelin/"
+    ],
+    "optimizer": {
+        "enabled": true
+    }
+}

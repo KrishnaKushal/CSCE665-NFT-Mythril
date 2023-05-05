@@ -1,0 +1,1 @@
+from nft_ownership_detector.detector import NFTOwnershipDetector
