@@ -1,4 +1,5 @@
 # Mythril
+Original Mythril Installation document [here](https://mythril-classic.readthedocs.io/en/master/installation.html).
 
 ## Installation and setup
 
@@ -12,7 +13,7 @@ git clone https://github.com/KrishnaKushal/CSCE665-NFT-Mythril.git
 
 **Move to the main directory with cloned files and run the command below**
 ```bash
-$ docker build -t mythril/myth .
+docker build -t mythril/myth .
 ```
 
 **The NFT ownership vulnerability plugin will be installed automatically after running the above command.**
