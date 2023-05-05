@@ -24,6 +24,7 @@ $ docker build -t mythril/myth .
 ```
 docker run -v $PWD/data:/data mythril/myth -v4 analyze /data/NftMarketplace.sol --solc-json /data/remapping.json
 ```
+**Note:For windows: use %CD% instead of $PWD**
 ![Buyer Address Vulnerability check](images/Test1img1.png)
 ![Purchase price/TrasactionID Mismatch Vulnerability check](images/Test1img2.png)
 ![Seller Address Vulnerability check](images/Test1img3.png)
